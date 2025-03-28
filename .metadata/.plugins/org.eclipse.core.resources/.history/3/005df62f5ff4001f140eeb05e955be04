@@ -1,0 +1,11 @@
+package InterviewQuations;
+
+public class Employee {
+	
+	protected int salary( int a) {
+		
+		System.out.println("Employee class Salary method");
+		return 1;
+	}
+
+}

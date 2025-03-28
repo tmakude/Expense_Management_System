@@ -1,0 +1,11 @@
+package InterviewQuations;
+
+public abstract class Employee {
+	
+
+	public static int num1;
+	public static int num2;
+	
+
+
+}

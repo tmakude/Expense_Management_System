@@ -1,0 +1,14 @@
+package com.app.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.app.entity.ExpenseBook;
+
+@Repository
+public interface ExpenseBookRepository extends JpaRepository<ExpenseBook, Long> {
+	
+	@Query("SELECT e FROM Expense e WHERE e.deleted = false")
+	List<Expense> findAllActiveExpenses();
+}
+

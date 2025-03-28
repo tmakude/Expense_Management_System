@@ -1,0 +1,11 @@
+package InterviewQuations;
+
+public class JavaDeveloper extends Employee {
+	
+	public void display() {
+		
+	}
+
+	
+
+}

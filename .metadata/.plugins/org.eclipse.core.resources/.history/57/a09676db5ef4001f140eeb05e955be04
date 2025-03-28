@@ -1,0 +1,10 @@
+package InterviewQuations;
+
+public class Employee {
+	
+	public void salary() {
+		
+		System.out.println("Employee class Salary method");
+	}
+
+}

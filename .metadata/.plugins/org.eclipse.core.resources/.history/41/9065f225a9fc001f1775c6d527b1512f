@@ -1,0 +1,19 @@
+package com.app.entity;
+
+public enum ExpenseStatus {
+    PENDING("Waiting for approval"),
+    APPROVED("Approved by manager"),
+    REJECTED("Rejected by manager");
+
+    private final String description;
+
+    // ✅ Explicit constructor
+    private ExpenseStatus(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+}

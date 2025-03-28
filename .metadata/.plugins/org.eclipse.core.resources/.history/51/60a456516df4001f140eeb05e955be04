@@ -1,0 +1,19 @@
+package InterviewQuations;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+
+		
+		String str = "Tushar";
+        str= str.concat("Makude");
+		 
+		 System.out.println(str);
+		
+
+
+
+	}
+
+}

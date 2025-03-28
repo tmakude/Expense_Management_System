@@ -1,0 +1,24 @@
+package InterviewQuations;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		List<String> str = List.of("1", "2", "3", "4", "5");
+		
+		List<Integer> listOfInt = str.stream().map(Integer :: parseInt).collect(Collectors.toList());
+		
+		listOfInt.forEach(System.out::println);
+		
+		
+
+
+
+	}
+
+}

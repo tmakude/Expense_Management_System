@@ -1,0 +1,22 @@
+package InterviewQuations;
+
+import java.util.List;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+
+		
+
+
+		List<Integer> list = List.of(10,15,30,40,80, 20, 45,5);
+		
+		list.stream().sorted().forEach(System.out::println);
+		
+
+
+
+	}
+
+}

@@ -1,0 +1,77 @@
+package InterviewQuations;
+
+import java.util.Objects;
+
+public  class Employee {
+	
+
+	private int id;
+	private String name;
+	private String emai;
+	
+	public Employee(int id, String name, String emai) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.emai = emai;
+	}
+	
+	
+
+
+
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(emai, id, name);
+	}
+
+
+
+
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		return Objects.equals(emai, other.emai) && id == other.id && Objects.equals(name, other.name);
+	}
+
+
+
+
+
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmai() {
+		return emai;
+	}
+
+	public void setEmai(String emai) {
+		this.emai = emai;
+	}
+	
+	
+
+}

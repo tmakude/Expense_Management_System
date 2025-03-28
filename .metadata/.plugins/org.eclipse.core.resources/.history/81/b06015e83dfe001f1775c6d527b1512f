@@ -1,0 +1,26 @@
+package InterviewQuations;
+
+public class MainClassForImmutableClass {
+
+	public static void main(String[] args) {
+		
+		Address address = new Address("Pune", "Maharashtra");
+		
+		ImmuatbleClass emp = new ImmuatbleClass("Tushar", 25, address);
+		
+		System.out.println(emp.hashCode());
+		
+		address.setCity("Mumbai");
+		
+		System.out.println();
+		
+		ImmuatbleClass emp1 = new ImmuatbleClass("Tushar", 25, address);
+		
+		System.out.println(emp);
+	
+		
+		
+
+	}
+
+}

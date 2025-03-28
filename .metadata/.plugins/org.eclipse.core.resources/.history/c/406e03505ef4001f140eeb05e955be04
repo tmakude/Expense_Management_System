@@ -1,0 +1,12 @@
+package InterviewQuations;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+
+		DemoInterface demo = ()-> System.out.println("Print data");
+
+	}
+
+}

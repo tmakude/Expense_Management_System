@@ -1,0 +1,14 @@
+package InterviewQuations;
+
+public class JavaDeveloper extends Employee {
+	
+	private void display() {
+		
+
+		System.out.println("in Java Developer class Disaplay Display !!!");
+		
+	}
+
+	
+
+}

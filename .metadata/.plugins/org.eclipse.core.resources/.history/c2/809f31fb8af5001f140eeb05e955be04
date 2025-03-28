@@ -1,0 +1,25 @@
+package InterviewQuations;
+
+import java.util.Objects;
+
+public class Employee {
+
+
+	
+	public Employee display(int a) {
+		
+		System.out.println("in Employe class Disaplay Display !!!");
+		
+		return Employee;
+		
+	}
+	
+	public void display(int a) {
+		
+		System.out.println("in Employe class Disaplay Display !!!");
+		
+	}
+	
+	
+
+}

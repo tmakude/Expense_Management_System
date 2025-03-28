@@ -1,0 +1,12 @@
+package InterviewQuations;
+
+public class JavaDeveloper extends Employee {
+
+	@Override
+	public void salary() {
+		
+		
+		
+	}
+
+}

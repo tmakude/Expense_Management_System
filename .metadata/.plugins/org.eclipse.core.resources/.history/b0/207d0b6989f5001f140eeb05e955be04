@@ -1,0 +1,24 @@
+package InterviewQuations;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		
+		List<Integer> list = Arrays.asList(10,20,30,40,50);
+		
+		
+	 Optional<Integer> num =	list.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst();
+	 
+	 System.out.println(num.get());
+	}
+
+}

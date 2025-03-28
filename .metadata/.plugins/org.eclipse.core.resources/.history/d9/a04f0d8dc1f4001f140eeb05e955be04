@@ -1,0 +1,21 @@
+package InterviewQuations;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		List<Employee> employees = List.of(new Employee("Alice", "IT", 70000), new Employee("Bob", "HR", 50000),
+				new Employee("Charlie", "IT", 80000), new Employee("David", "Finance", 60000),
+				new Employee("Eve", "HR", 55000));
+		
+		
+		Map<String , List<Employee>> listOfEmployee = employees.stream().collect(Collectors.groupingBy(e -> e.getDepartment()));
+
+	}
+
+}

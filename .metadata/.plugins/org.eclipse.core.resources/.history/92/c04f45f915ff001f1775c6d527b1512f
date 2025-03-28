@@ -1,0 +1,49 @@
+package InterviewQuations;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+
+		int num = 121;
+		
+		ispalindrom(num);
+		
+		
+	}
+
+	private static void ispalindrom(int num) {
+	
+		String str = String.valueOf(num);
+		int left = 0;
+		int right = str.length()-1;
+		
+		boolean falg = false;
+		
+		while(left<= right) {
+			
+			if(str.charAt(left) == str.charAt(right)) {
+				falg = true;
+			}
+			
+		}
+		
+		if(falg) {
+			System.out.println("Is Palindrom");
+		}else {
+			
+			System.out.println("not Palindrom");
+		}
+		
+		
+	}
+
+}

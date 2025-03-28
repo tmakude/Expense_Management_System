@@ -1,0 +1,8 @@
+package InterviewQuations;
+
+public  class Employee {
+	
+	public  int num1 ;
+	public  int num2;
+
+}

@@ -1,0 +1,16 @@
+package com.app.service;
+
+import java.util.List;
+
+import com.app.dto.ExpenseDTO;
+import com.app.entity.ExpenseBook;
+
+public interface ExpenseBookService {
+	
+	ExpenseBook creatExpese(ExpenseDTO expenseDTO);
+	ExpenseBook updateExpense(ExpenseDTO expenseDTO);
+	List<ExpenseBook> getAllExpeses();
+	List<ExpenseBook> getExpensesBasedOnStatus(String status);
+	
+
+}

@@ -1,0 +1,23 @@
+package InterviewQuations;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Optional;
+
+public class SecondLargestNumberInTheArray {
+
+	public static void main(String[] args) {
+
+		String input = "Java";
+		
+		StringBuilder sb = new StringBuilder();
+		
+		System.out.println(sb.append(sb).reverse().toString());
+
+
+
+	}
+
+
+
+}

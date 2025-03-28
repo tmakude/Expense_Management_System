@@ -1,0 +1,9 @@
+package InterviewQuations;
+
+public interface DemoInterface {
+
+	void printData();
+
+	void display();
+
+}
