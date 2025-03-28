@@ -14,12 +14,7 @@ public class MainClass {
 		
 
 		
-		String str = "Tushar";
-		
-		StringBuffer sb = new StringBuffer();
-		
-		sb.append(str);
-		System.out.println(sb.reverse().toString());
+	
 
 		
 	}
